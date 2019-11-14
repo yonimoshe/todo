@@ -1,0 +1,11 @@
+.CardStyle {
+  text-align: center;
+  height: 250px;
+  cursor: pointer;
+}
+
+.CardStyle :hover {
+  background-color: #FF6347;
+  color: #fff;
+  transition: 0.5s;
+}

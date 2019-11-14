@@ -1,0 +1,7 @@
+.Board {
+  font-family: 'Indie Flower', cursive;
+  overflow: auto;
+  font-size: 23px;
+  border: 1px solid #000;
+  height: 500px;
+}
