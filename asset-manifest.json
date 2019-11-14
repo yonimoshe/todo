@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "//yonimoshe.github.io/todo/static/css/main.794981d4.chunk.css",
+    "main.js": "//yonimoshe.github.io/todo/static/js/main.db52f460.chunk.js",
+    "main.js.map": "//yonimoshe.github.io/todo/static/js/main.db52f460.chunk.js.map",
+    "runtime-main.js": "//yonimoshe.github.io/todo/static/js/runtime-main.7e30d67e.js",
+    "runtime-main.js.map": "//yonimoshe.github.io/todo/static/js/runtime-main.7e30d67e.js.map",
+    "static/js/2.6058d4cc.chunk.js": "//yonimoshe.github.io/todo/static/js/2.6058d4cc.chunk.js",
+    "static/js/2.6058d4cc.chunk.js.map": "//yonimoshe.github.io/todo/static/js/2.6058d4cc.chunk.js.map",
+    "index.html": "//yonimoshe.github.io/todo/index.html",
+    "precache-manifest.83f2f5f73780e91565004b0a25545292.js": "//yonimoshe.github.io/todo/precache-manifest.83f2f5f73780e91565004b0a25545292.js",
+    "service-worker.js": "//yonimoshe.github.io/todo/service-worker.js",
+    "static/css/main.794981d4.chunk.css.map": "//yonimoshe.github.io/todo/static/css/main.794981d4.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7e30d67e.js",
+    "static/js/2.6058d4cc.chunk.js",
+    "static/css/main.794981d4.chunk.css",
+    "static/js/main.db52f460.chunk.js"
+  ]
+}
