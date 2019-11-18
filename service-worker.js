@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "//yonimoshe.github.io/todo/precache-manifest.83f2f5f73780e91565004b0a25545292.js"
+  "//yonimoshe.github.io/todo/precache-manifest.fc1283732f7d32a9591227e2d980033e.js"
 );
 
 self.addEventListener('message', (event) => {
