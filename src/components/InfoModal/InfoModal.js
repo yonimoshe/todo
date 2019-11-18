@@ -4,7 +4,7 @@ const infoModal = () => {
 
   return(
     <>
-        <button type="button" className="btn btn-info btn-sm" style={{height: '4em'}} data-toggle="modal" data-target="#exampleModalScrollable">
+        <button type="button" className="btn btn-info btn-sm" style={{height: '4em', border:'1px solid #fff' }} data-toggle="modal" data-target="#exampleModalScrollable">
           <i className="fas fa-info-circle fa-3x"></i>
         </button>
 
@@ -33,7 +33,7 @@ const infoModal = () => {
                    quarter 4 represent "Not Important & Not urgent".<br/>
                    <br/>
                    Click on the quarter to see the assignments that he contains.
-                   <br/><br/>            
+                   <br/><br/>
                    At the top right of the screen there is an input line and four
                    different buttons.
                    Enter the assignment description in the input bar and classify it into

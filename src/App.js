@@ -110,24 +110,38 @@ class App extends Component {
   render() {
     return (
           <>
-            <div className='container'>
-              <div className='row'>
-                 <div className="col-12 d-flex justify-content-center col-sm-6 d-sm-flex justify-content-sm-start align-items-sm-center p-sm-0">
-                   <InfoModal />
-                 </div>
-                 <div className="col-12 col-sm-6 d-sm-flex justify-content-sm-end p-sm-0">
-                   <div className="my-2 box-sizing: border-box p-0">
-                      <input type="text" className="form-control" placeholder="Enter new assignment" onChange={this.inputHandler} value={this.state.currentInput} />
-                         <div className="input-group-append justify-content-between mt-1" id="button-addon4">
-                            <button className="btn btn-info mr-1" onClick={() => this.addAssignmentHandler('quarter_1')}>Quarter 1</button>
-                            <button className="btn btn-info mr-1" onClick={() => this.addAssignmentHandler('quarter_2')}>Quarter 2</button>
-                            <button className="btn btn-info mr-1" onClick={this.addAssignmentHandler.bind(this,'quarter_3')}>Quarter 3</button>
-                            <button className="btn btn-info" onClick={this.addAssignmentHandler.bind(this,'quarter_4')}>Quarter 4</button>
-                         </div>
-                    </div>
-                 </div>
+          <div className="area" >
+            <ul className="circles mb-0">
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+            </ul>
+            
+              <div className='container'>
+                <div className='row'>
+                   <div className="col-12 d-flex justify-content-center col-sm-6 d-sm-flex justify-content-sm-start align-items-sm-center p-sm-0">
+                     <InfoModal />
+                   </div>
+                   <div className="col-12 col-sm-6 d-sm-flex justify-content-sm-end p-sm-0">
+                     <div className="my-2 box-sizing: border-box p-0">
+                        <input type="text" className="form-control" placeholder="Enter new assignment" onChange={this.inputHandler} value={this.state.currentInput} />
+                           <div className="input-group-append justify-content-between mt-1" id="button-addon4">
+                              <button className="btn btn-info mr-1 border border-white" onClick={() => this.addAssignmentHandler('quarter_1')}>Quarter 1</button>
+                              <button className="btn btn-info mr-1 border border-white" onClick={() => this.addAssignmentHandler('quarter_2')}>Quarter 2</button>
+                              <button className="btn btn-info mr-1 border border-white" onClick={this.addAssignmentHandler.bind(this,'quarter_3')}>Quarter 3</button>
+                              <button className="btn btn-info border border-white" onClick={this.addAssignmentHandler.bind(this,'quarter_4')}>Quarter 4</button>
+                           </div>
+                      </div>
+                   </div>
+                </div>
               </div>
-            </div>
 
                <div className='container'>
                 <div className='row'>
@@ -175,7 +189,8 @@ class App extends Component {
                        </div>
                   </div>
                </div>
-            </>
+            </div >
+          </>
     );
   }
 }
