@@ -12,7 +12,7 @@ const card = (props) => {
     </div>
   );
   const activeQuarterCard = (
-    <div className="card CardStyle" style={{width: '100%', borderColor:'#FF6347'}}>
+    <div className="card CardStyle" style={{width: '100%', borderColor:'#FF0000'}}>
      <div className="card-body">
        <b className="card-title">{props.title}</b>
        <h6 className="card-subtitle mb-2 mt-5">{props.subtitle}</h6>
