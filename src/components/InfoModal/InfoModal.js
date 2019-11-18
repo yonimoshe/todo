@@ -4,7 +4,7 @@ const infoModal = () => {
 
   return(
     <>
-        <button type="button" className="btn btn-info btn-sm" style={{height: '4em'}} data-toggle="modal" data-target="#exampleModalScrollable">
+        <button type="button" className="btn btn-info btn-sm" style={{height: '4em', border:'1px solid #fff' }} data-toggle="modal" data-target="#exampleModalScrollable">
           <i className="fas fa-info-circle fa-3x"></i>
         </button>
 
